@@ -91,5 +91,6 @@ def intersect(circle : tuple, circles : list, blockers : list):
         if math.sqrt((x1 - x)**2 + (y1 - y)**2) < (r1 + r):
             inters.append(circle1)
 
+    #呵呵
     # Intersect with nothing
     return inters
